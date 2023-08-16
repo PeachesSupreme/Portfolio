@@ -1,13 +1,155 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Londrina+Solid:wght@900&family=Poppins:wght@200&display=swap");
+
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+p {
+  color: #cea2d7;
+}
+
+h2 {
+  color: #defffa;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 1440px;
+  margin: 0;
+  background-color: #353839;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* social media widget****** */
+.widget-bar {
+  width: 70px;
+  height: 280px;
+  background-color: #cea2d7;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+  position: fixed;
+  top: 50%;
+  right: 35px;
+  transform: translateY(-50%);
+}
+
+.widget-img {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.widget-img:hover {
+  filter: brightness(1.2);
+  transform: scale(1.2);
+}
+
+/* Header Section***** */
+
+.header {
+  height: 75px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-link {
+  background-color: #1e1e1e;
+  height: 75px;
+  width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-logo {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin-left: 60%;
+}
+
+.nav-link {
+  color: #defffa;
+  text-decoration: none;
+}
+
+.con-button {
+  height: 45px;
+  width: 95px;
+  color: #00ff9f;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  font-size: 15pt;
+  margin-right: 35px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.con-button:hover {
+  background-color: #262626;
+}
+
+/* Home page Section***** */
+
+.home-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.home-text h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #defffa;
+}
+
+.home-image {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  order: 2;
+  margin-left: 150px;
+}
+
+/*container for paragraphs on pages */
+.para-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 270px;
+}
+
+.seperator {
+  border: none;
+  border-top: 2px solid black;
+  margin-top: 5px;
+  width: 500px;
 }
