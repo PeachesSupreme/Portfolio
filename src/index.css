@@ -4,6 +4,11 @@
   font-family: "Kanit", sans-serif;
 }
 
+a {
+  color: #cea2d7;
+  font-size: 20px;
+}
+
 p {
   color: #cea2d7;
 }
@@ -13,8 +18,26 @@ h2 {
   margin: 0;
 }
 
+h1 {
+  color: #defffa;
+  margin: 0;
+  margin-left: 270px;
+}
+
+h3 {
+  color: #defffa;
+}
+
+h4 {
+  color: #defffa;
+}
+
+h6 {
+  color: #defffa;
+  margin: 0;
+}
+
 body {
-  width: 1440px;
   margin: 0;
   background-color: #353839;
 }
@@ -139,7 +162,7 @@ code {
   margin-left: 150px;
 }
 
-/*container for paragraphs on pages */
+/*containers for paragraphs on pages */
 .para-container {
   display: flex;
   flex-direction: column;
@@ -147,9 +170,100 @@ code {
   margin-left: 270px;
 }
 
+.img-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 135px;
+}
+
 .seperator {
   border: none;
   border-top: 2px solid black;
   margin-top: 5px;
   width: 500px;
+}
+.seperator2 {
+  border: none;
+  border-top: 2px solid black;
+  margin-top: 55px;
+  width: 500px;
+  margin-left: 270px;
+}
+
+.para-img {
+  display: flex;
+  width: 275px;
+  height: 200px;
+  margin: 5px;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  margin-left: 270px;
+}
+
+.img-link {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.img-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-container {
+  display: flex;
+}
+
+.quick-links2 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 270px;
+}
+
+.img-link2 {
+  display: block;
+  width: 240px;
+  height: 125px;
+  border-radius: 15px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.img-link2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Footer******** */
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-foot {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link2 {
+  color: #cea2d7;
+  text-decoration: none;
+  font-size: 12pt;
 }

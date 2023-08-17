@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Work from "./pages/Work";
 import Blog from "./pages/Blog";
 import SocialBar from "./components/SocialBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/work" element={<Work></Work>} />
         <Route path="/blog" element={<Blog></Blog>} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
