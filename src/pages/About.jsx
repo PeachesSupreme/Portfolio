@@ -4,25 +4,28 @@ const About = () => {
   return (
     <>
       <h1>About Me</h1>
-      <div className="quick-links">
-        <p>
-          I'm Ryan Crowley, a software development student with a passion for
-          creating innovative solutions. Hailing from the vibrant city of St.
-          John's, Newfoundland, I'm on a mission to become a skilled developer.
-          Currently mastering the art of full stack development, I'm also proud
-          to hold a micro-credential badge from AWS. My journey is driven by a
-          thirst for knowledge and a commitment to pushing the boundaries of
-          technology. Let's connect and collaborate to shape the digital world
-          together.
-        </p>
-        <a
-          href="https://www.credly.com/badges/2290e990-1edf-4b80-a51f-28f698a86883/public_url"
-          target="_blank"
-          className="img-link"
-        >
-          <img src="images/awsbadge.png" alt="badge" />
-        </a>
-        <hr className="seperator" />
+      <div className="content-container">
+        <div className="quick-links">
+          <p>
+            I'm Ryan Crowley, a software development student with a passion for
+            creating innovative solutions. Hailing from the vibrant city of St.
+            John's, Newfoundland, I'm on a mission to become a skilled
+            developer. Currently mastering the art of full stack development,
+            I'm also proud to hold a micro-credential badge from AWS. My journey
+            is driven by a thirst for knowledge and a commitment to pushing the
+            boundaries of technology. Let's connect and collaborate to shape the
+            digital world together.
+          </p>
+          <a
+            href="https://www.credly.com/badges/2290e990-1edf-4b80-a51f-28f698a86883/public_url"
+            target="_blank"
+            className="img-link"
+          >
+            <img src="images/awsbadge.png" alt="badge" />
+          </a>
+          <hr className="seperator" />
+        </div>
+        <img src="images/selfie.jpg" alt="selfie" className="home-image" />
       </div>
 
       <div className="para-container">
